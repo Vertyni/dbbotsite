@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+	<head>
+		<title>Игруля</title>
+		<!--<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">-->
+		<link rel="stylesheet" href="../static/css/style.css">
+		<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0"/>
+	</head>
+<body>
+
+<div class="menu">
+	<h1>Лидеры</h1>
+	<a href="/" style="position: absolute; margin-top: -50px; margin-left: -190px;">На главную</a>
+</div>
+
+<br><br><br>
+
+<div class="gameButtons">
+	<button onclick="changeLidersTable('игра1');">Игра 1</button>
+	<button onclick="changeLidersTable('игра2');">Игра 2</button>
+	<button onclick="changeLidersTable('стикеры');">Стикеры</button>
+</div>
+
+<div class="lidersTableParent">
+	<table class="lidersTable"></table>
+</div>
+
+<!--<script src="{{ url_for('static', filename='js/script.js') }}"></script>-->
+<script src="../static/js/script.js"></script>
+</body>
+</html>
