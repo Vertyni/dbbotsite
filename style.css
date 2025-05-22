@@ -1,0 +1,56 @@
+@font-face {
+	font-family: 'Days';
+	src: url('../fonts/days.ttf');
+	font-weight: 900;
+	font-style: normal;
+}
+
+* {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	color: #bfbfbf;
+}
+body {
+	background: #151515;
+	font-family: 'Days';
+}
+.menu {
+	text-align: center;
+	margin: 0 auto;
+	font-size: 64px;
+}
+a {
+    text-decoration: none;
+    font-family: 'Days';
+}
+.lidersTableParent {
+	display: flex;
+	justify-content: center;
+}
+.lidersTable {
+	border: 2px solid #656565;
+	border-radius: 5px;
+}
+td, tr {
+    border: 2px solid #454545;
+	font-size: 48px;
+}
+.gameButtons {
+	display: flex;
+	justify-content: center;
+	font-size: 48px;
+}
+button {
+	border: 3px solid #090909;
+	border-radius: 5px;
+	background: #151515;
+	font-family: 'Days';
+	font-size: 36px;
+	margin: 5px;
+}
+button:hover {
+	background: #252525;
+}
